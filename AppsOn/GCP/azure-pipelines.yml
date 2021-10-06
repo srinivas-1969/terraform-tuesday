@@ -3,10 +3,10 @@
 trigger:
   branches:
     include:
-    - master
+    - main
   paths:
     include:
-    - AppsOn/AWS
+    - AppsOn/GCP
 
 stages:
 - stage: Validate
